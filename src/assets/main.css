@@ -1,0 +1,28 @@
+@import './base.css';
+
+.wrapper {
+	max-width: 616px;
+	margin: 0 auto;
+	padding: 1.5rem;
+	font-weight: 400;
+}
+a {
+	font-family: 'Montserrat';
+	text-decoration: none;
+	font-size: 14px;
+	color: rgba(17, 17, 17, 0.48);
+	transition: color 0.3s linear;
+}
+
+.router-link-active,
+.router-link-exact-active {
+	text-decoration: none;
+	color: #01a7fd;
+	transition: 0.4s;
+}
+
+@media (hover: hover) {
+	a:hover {
+		color: #01a7fd;
+	}
+}
